@@ -1,6 +1,6 @@
 # Balanced Binary Tree
 
-## [Recursive Way](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
+## Recursive Way
 
 {% code-tabs %}
 {% code-tabs-item title="Recursively Balance the Binary Tree" %}
@@ -25,6 +25,10 @@ class Solution(object):
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+
+## [Recursive Way Explained](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
+
+Please follow [Google Drive Link](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
 
 ## Iterative Way
 
