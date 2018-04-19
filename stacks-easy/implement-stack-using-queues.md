@@ -1,6 +1,6 @@
 # Implement Stack using Queues
 
-``` py
+```python
 class MyStack(object):
 
     def __init__(self):
@@ -33,3 +33,4 @@ class MyStack(object):
 # param_3 = obj.top()
 # param_4 = obj.empty()
 ```
+

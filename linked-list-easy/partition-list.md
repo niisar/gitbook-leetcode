@@ -1,6 +1,6 @@
 # Partition List
 
-``` py
+```python
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, x):
@@ -23,11 +23,12 @@ class Solution:
             else:
                 cur2.next = head
                 cur2 = cur2.next
-            
+
             head = head.next
-            
+
         cur2.next = None
         cur1.next = large.next
-        
+
         return small.next
 ```
+

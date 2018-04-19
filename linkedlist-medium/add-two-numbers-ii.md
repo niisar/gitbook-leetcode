@@ -1,6 +1,6 @@
 # Add Two Numbers II
 
-``` py
+```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -19,14 +19,14 @@ class Solution(object):
         stack = self.add_helper(n1,n2)
         result = self.stack_to_list(stack)
         return result 
-    
+
     def list_to_stack(self, node):
         stack = []
         while node:
             stack.append(node.val)
             node = node.next
         return stack
-    
+
     def stack_to_list(self, stack):
         head = ListNode(0)
         cur = head
@@ -34,7 +34,7 @@ class Solution(object):
             cur.next = ListNode(stack.pop())
             cur = cur.next
         return head.next
-    
+
     def add_helper(self, s1, s2):
         res = []
         carry = 0
@@ -46,3 +46,4 @@ class Solution(object):
             carry = total/10
         return res
 ```
+

@@ -1,6 +1,6 @@
 # Two Sum
 
-``` py
+```python
 class Solution(object):
     def twoSum(self, nums, target):
         """
@@ -16,3 +16,4 @@ class Solution(object):
             else:
                 dict[num] = i
 ```
+

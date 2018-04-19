@@ -1,13 +1,13 @@
 # Binary Tree Level Order Traversal II
 
-``` py
+```python
 # in
     3
    / \
   9  20
     /  \
    15   7
-   
+
 # out
 [
   [15,7],
@@ -37,3 +37,4 @@ class Solution(object):
         dfs(root, 0)
         return self.res[::-1]
 ```
+

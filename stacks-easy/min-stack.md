@@ -1,6 +1,6 @@
 # Min Stack
 
-``` py
+```python
 class MinStack(object):
 
     def __init__(self):
@@ -23,3 +23,4 @@ class MinStack(object):
     def getMin(self):
         return self.minstack[-1]
 ```
+

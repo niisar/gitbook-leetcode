@@ -1,6 +1,6 @@
 # Island Perimeter
 
-``` py
+```python
 class Solution(object):
     def islandPerimeter(self, grid):
         """
@@ -19,3 +19,4 @@ class Solution(object):
                         res -= 2
         return res
 ```
+

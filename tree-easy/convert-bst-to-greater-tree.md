@@ -1,5 +1,6 @@
 # Convert BST to Greater Tree
 
-``` py
+```python
 
 ```
+

@@ -1,5 +1,6 @@
 # Diameter of Binary Tree
 
-``` py
+```python
 
 ```
+

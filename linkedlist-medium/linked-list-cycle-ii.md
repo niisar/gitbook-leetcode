@@ -1,6 +1,6 @@
 # Linked List Cycle II
 
-``` py
+```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -19,12 +19,13 @@ class Solution(object):
             fast = fast.next.next
             if slow == fast:
                 break
-                
+
         else:
             return None
-        
+
         while head != slow:
             head = head.next
             slow = slow.next
         return head
 ```
+

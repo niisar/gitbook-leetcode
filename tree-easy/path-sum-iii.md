@@ -1,5 +1,6 @@
 # Path Sum III
 
-``` py
+```python
 
 ```
+

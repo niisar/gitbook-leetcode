@@ -1,8 +1,12 @@
+# Maximum Distance in Arrays
+
 ## Problem
-Given `m` arrays, and each array is sorted in ascending order. Now you can pick up two integers from two different arrays (each array picks one) and calculate the distance. We define the distance between two integers `a` and `b` to be their absolute difference `|a-b|`. Your task is to find the maximum distance.
+
+Given `m` arrays, and each array is sorted in ascending order. Now you can pick up two integers from two different arrays \(each array picks one\) and calculate the distance. We define the distance between two integers `a` and `b` to be their absolute difference `|a-b|`. Your task is to find the maximum distance.
 
 ## Solution
-``` py
+
+```python
 class Solution(object):
     def maxDistance(self, nums):
         """
@@ -19,3 +23,4 @@ class Solution(object):
             high = max(high, max(num))
         return res
 ```
+

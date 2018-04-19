@@ -1,6 +1,6 @@
-# [Path Sum](https://leetcode.com/problems/path-sum/description/)
+# Path Sum
 
-``` py
+```python
 class Solution(object):
     def hasPathSum(self, root, sum):
         """
@@ -24,3 +24,4 @@ class Solution(object):
 
         return left or right
 ```
+

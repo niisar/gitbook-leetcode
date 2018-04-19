@@ -1,6 +1,6 @@
-# [Same Tree](https://leetcode.com/problems/same-tree/description/)
+# Same Tree
 
-``` py
+```python
 class Solution(object):
     def isSameTree(self, p, q):
         #Edge
@@ -9,3 +9,4 @@ class Solution(object):
         else:
             return p.val == q.val and self.isSameTree(p.left, q.left) and self.isSameTree(p.right, q.right)
 ```
+

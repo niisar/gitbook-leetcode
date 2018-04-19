@@ -1,5 +1,6 @@
 # Symmetric Tree
 
-``` py
+```python
 
 ```
+

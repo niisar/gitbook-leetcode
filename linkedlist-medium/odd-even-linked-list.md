@@ -1,6 +1,6 @@
 # Odd Even Linked List
 
-``` py
+```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -15,7 +15,7 @@ class Solution(object):
         """
         if not head:
             return head
-        
+
         odd = head
         even = head.next
         even_guardnode = even
@@ -24,7 +24,8 @@ class Solution(object):
             odd = odd.next
             even.next = odd.next
             even = even.next
-        
+
         odd.next = even_guardnode
         return head
 ```
+

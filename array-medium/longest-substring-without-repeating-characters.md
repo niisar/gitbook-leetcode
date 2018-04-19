@@ -1,6 +1,6 @@
 # Longest Substring Without Repeating Characters
 
-``` py
+```python
 class Solution(object):
     def lengthOfLongestSubstring(self, s):
         """
@@ -27,3 +27,4 @@ class Solution(object):
 
         return max_length
 ```
+

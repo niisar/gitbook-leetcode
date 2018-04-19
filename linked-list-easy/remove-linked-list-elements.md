@@ -1,6 +1,6 @@
 # Remove Linked List Elements
 
-``` py
+```python
 # Definition for singly-linked list.
 # class ListNode(object):
 #     def __init__(self, x):
@@ -17,13 +17,14 @@ class Solution(object):
         # get rid of first replica
         while head and head.val == val:
             head = head.next
-            
+
         cur = head
         while cur:
             if cur.next and cur.next.val == val:
                 cur.next = cur.next.next
             else:
                 cur = cur.next
-                
+
         return head
 ```
+

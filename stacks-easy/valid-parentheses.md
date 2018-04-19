@@ -1,6 +1,6 @@
 # Valid Parentheses
 
-``` py
+```python
 # ****************
 # Descrption:
 # 20. Valid Parentheses
@@ -34,3 +34,4 @@ class Solution(object):
             return False
         return True
 ```
+

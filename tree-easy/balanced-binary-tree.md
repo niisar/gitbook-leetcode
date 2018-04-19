@@ -1,8 +1,8 @@
 # Balanced Binary Tree
 
-### [Recursive Way](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
+## [Recursive Way](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
 
-```py
+```python
 # ****************
 # Descrption:
 # 110. Balanced Binary Tree
@@ -22,9 +22,9 @@ class Solution(object):
             return check(root) != -1
 ```
 
-### Iterative Way
+## Iterative Way
 
-```py
+```python
 class Solution(object):
     def isBalanced(self, root):
         stack, node, last, depths = [], root, None, {}
@@ -45,6 +45,4 @@ class Solution(object):
                     node = node.right
         return True
 ```
-
-
 

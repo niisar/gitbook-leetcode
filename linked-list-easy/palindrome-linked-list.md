@@ -1,6 +1,6 @@
 # Palindrome Linked List
 
-``` py
+```python
 # Given a singly linked list, determine if it is a palindrome.
 # Time: O(n)
 # Space: O(1)
@@ -35,3 +35,4 @@ class Solution(object):
             tail = tail.next
         return True
 ```
+

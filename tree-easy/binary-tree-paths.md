@@ -1,5 +1,6 @@
 # Binary Tree Paths
 
-``` py
+```python
 
 ```
+
