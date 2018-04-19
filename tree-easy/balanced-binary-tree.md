@@ -2,11 +2,13 @@
 
 ## [Recursive Way](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
 
+{% code-tabs %}
+{% code-tabs-item title="Recursively Balance the Binary Tree" %}
 ```python
 # ****************
 # Descrption:
 # 110. Balanced Binary Tree
-# Given a binary tree, determine if it is height-balanced.
+# Given a binary tree, determine if it's height-balanced.
 # ****************
 class Solution(object):
         def isBalanced(self, root):
@@ -21,6 +23,8 @@ class Solution(object):
 
             return check(root) != -1
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
 ## Iterative Way
 
