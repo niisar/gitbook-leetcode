@@ -28,6 +28,8 @@ class Solution(object):
 
 ## Iterative Way
 
+{% code-tabs %}
+{% code-tabs-item title="Iteratively Balance the Binary Tree" %}
 ```python
 class Solution(object):
     def isBalanced(self, root):
@@ -49,4 +51,6 @@ class Solution(object):
                     node = node.right
         return True
 ```
+{% endcode-tabs-item %}
+{% endcode-tabs %}
 
