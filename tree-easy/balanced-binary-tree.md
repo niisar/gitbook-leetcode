@@ -8,25 +8,11 @@ Given a binary tree, determine if it is height-balanced.
 
 The Tree below will return **True**.
 
-```text
-    3
-   / \
-  9  20
-    /  \
-   15   7
-```
+![](../.gitbook/assets/1.png)
 
 Tree below will return **False**.
 
-```text
-       1
-      / \
-     2   2
-    / \
-   3   3
-  / \
- 4   4
-```
+![](../.gitbook/assets/2.png)
 
 ## Solution \(Recursive\)
 
