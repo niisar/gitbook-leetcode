@@ -4,7 +4,7 @@
 
 Given a binary tree, determine if it is height-balanced.
 
-> a binary tree in which the depth of the two subtrees of _every_ node never differ by more than 1.
+> A binary tree in which the depth of the two sub trees of _every_ node never differ by more than 1.
 
 ## Recursive Way
 
