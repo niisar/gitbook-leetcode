@@ -28,17 +28,15 @@ Tree below will return **False**.
  4   4
 ```
 
-## Recursive Way
+## Solution \(Recursive\)
 
+{% tabs %}
+{% tab title="Python" %}
 {% code-tabs %}
 {% code-tabs-item title="Recursively Balance the Binary Tree" %}
 ```python
-# ****************
-# Descrption:
-# 110. Balanced Binary Tree
-# Given a binary tree, determine if it's height-balanced.
-# ****************
-class Solution(object):
+class Soluti
+on(object):
         def isBalanced(self, root):
             def check(root):
                 if root is None:
@@ -53,13 +51,21 @@ class Solution(object):
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+{% endtab %}
 
-## [Recursive Way Explained](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
+{% tab title="Javascript" %}
+todo
+{% endtab %}
 
-Please follow [Google Drive Link](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
+{% tab title="CSharp" %}
+todo
+{% endtab %}
+{% endtabs %}
 
-## Iterative Way
+## Solution \( Iterative\)
 
+{% tabs %}
+{% tab title="Python" %}
 {% code-tabs %}
 {% code-tabs-item title="Iteratively Balance the Binary Tree" %}
 ```python
@@ -82,7 +88,23 @@ class Solution(object):
                 else:
                     node = node.right
         return True
+
+
 ```
 {% endcode-tabs-item %}
 {% endcode-tabs %}
+{% endtab %}
+
+{% tab title="Javascript" %}
+todo
+{% endtab %}
+
+{% tab title="CSharp" %}
+todo
+{% endtab %}
+{% endtabs %}
+
+## Code Flow
+
+Read on [Google Doc](https://docs.google.com/document/d/1ciAyYImc5Q-TI3eTRBtYL6--DPFBW7LqH6ugc5y9NWs/edit?usp=sharing)
 
