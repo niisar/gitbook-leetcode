@@ -6,6 +6,28 @@ Given a binary tree, determine if it is height-balanced.
 
 > A binary tree in which the depth of the two sub trees of _every_ node never differ by more than 1.
 
+The Tree below will return **True**.
+
+```text
+    3
+   / \
+  9  20
+    /  \
+   15   7
+```
+
+Tree below will return **False**.
+
+```text
+       1
+      / \
+     2   2
+    / \
+   3   3
+  / \
+ 4   4
+```
+
 ## Recursive Way
 
 {% code-tabs %}
