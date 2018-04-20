@@ -1,6 +1,6 @@
 # Tree \(Easy\)
 
-| \# | Title | Solution | Time | Space | Video |
+| \#\#\#\# | Title | Solution | Time..... | Space | Video |
 | --- | --- | --- | --- | --- | --- |
 |  110 |  [Balanced Binary Tree](https://leetcode.com/problems/balanced-binary-tree/#/description) |  Python |  _O\(N\)_ |  _O\(h\)_ |  |
 |  107 |  [Binary Tree Level Order Traversal II](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) |  Python |  _O\(N\)_ |  _O\(h\)_ |  |
