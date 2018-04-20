@@ -21,8 +21,7 @@ Tree below will return **False**.
 {% code-tabs %}
 {% code-tabs-item title="Recursively Balance the Binary Tree" %}
 ```python
-class Soluti
-on(object):
+class Solution(object):
         def isBalanced(self, root):
             def check(root):
                 if root is None:
